@@ -1,0 +1,1040 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.13.0
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/Malpicadz/Sites/repos/package.json
+6 warn package.json repos@0.0.0 No description
+7 warn package.json repos@0.0.0 No repository field.
+8 warn package.json repos@0.0.0 No README data
+9 warn package.json repos@0.0.0 No license field.
+10 verbose install where, deps [ '/Users/Malpicadz/Sites/repos',
+10 verbose install   [ 'grunt',
+10 verbose install     'grunt-autoprefixer',
+10 verbose install     'grunt-concurrent',
+10 verbose install     'grunt-contrib-clean',
+10 verbose install     'grunt-contrib-concat',
+10 verbose install     'grunt-contrib-connect',
+10 verbose install     'grunt-contrib-copy',
+10 verbose install     'grunt-contrib-cssmin',
+10 verbose install     'grunt-contrib-htmlmin',
+10 verbose install     'grunt-contrib-imagemin',
+10 verbose install     'grunt-contrib-jshint',
+10 verbose install     'grunt-contrib-uglify',
+10 verbose install     'grunt-contrib-watch',
+10 verbose install     'grunt-filerev',
+10 verbose install     'grunt-google-cdn',
+10 verbose install     'grunt-newer',
+10 verbose install     'grunt-ng-annotate',
+10 verbose install     'grunt-svgmin',
+10 verbose install     'grunt-usemin',
+10 verbose install     'grunt-wiredep',
+10 verbose install     'jshint-stylish',
+10 verbose install     'load-grunt-tasks',
+10 verbose install     'time-grunt' ] ]
+11 verbose install where, peers [ '/Users/Malpicadz/Sites/repos', [] ]
+12 verbose installManyTop reading for lifecycle /Users/Malpicadz/Sites/repos/package.json
+13 info preinstall repos@0.0.0
+14 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/bower/package.json
+15 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/bower_components/package.json
+16 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/browser-sync/package.json
+17 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/chai/package.json
+18 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/chalk/package.json
+19 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/del/package.json
+20 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt/package.json
+21 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-autoprefixer/package.json
+22 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-concurrent/package.json
+23 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-clean/package.json
+24 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-concat/package.json
+25 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-connect/package.json
+26 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-copy/package.json
+27 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-cssmin/package.json
+28 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-htmlmin/package.json
+29 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-imagemin/package.json
+30 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-jshint/package.json
+31 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-uglify/package.json
+32 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-watch/package.json
+33 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-filerev/package.json
+34 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-google-cdn/package.json
+35 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-karma/package.json
+36 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-newer/package.json
+37 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-ng-annotate/package.json
+38 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-svgmin/package.json
+39 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-usemin/package.json
+40 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-wiredep/package.json
+41 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp/package.json
+42 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-autoprefixer/package.json
+43 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-cache/package.json
+44 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-concat/package.json
+45 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-csso/package.json
+46 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-filter/package.json
+47 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-flatten/package.json
+48 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-imagemin/package.json
+49 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-inject/package.json
+50 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-jshint/package.json
+51 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-karma/package.json
+52 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-load-plugins/package.json
+53 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-minify-html/package.json
+54 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-annotate/package.json
+55 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-html2js/package.json
+56 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-protractor/package.json
+57 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rename/package.json
+58 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-replace/package.json
+59 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rev/package.json
+60 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rev-replace/package.json
+61 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-sass/package.json
+62 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-size/package.json
+63 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-uglify/package.json
+64 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-useref/package.json
+65 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/http-proxy/package.json
+66 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/jasmine-core/package.json
+67 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/jshint-stylish/package.json
+68 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/karma/package.json
+69 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/karma-jasmine/package.json
+70 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/karma-phantomjs-launcher/package.json
+71 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/load-grunt-tasks/package.json
+72 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/lodash/package.json
+73 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/main-bower-files/package.json
+74 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/node-watch/package.json
+75 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/normalize.css/package.json
+76 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/phantomjs/package.json
+77 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/protractor/package.json
+78 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/require-dir/package.json
+79 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/time-grunt/package.json
+80 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/uglify-save-license/package.json
+81 verbose installManyTop reading scoped package data from /Users/Malpicadz/Sites/repos/node_modules/wiredep/package.json
+82 info package.json bower@1.3.12 No license field.
+83 info package.json grunt@0.4.5 No license field.
+84 info package.json grunt-contrib-connect@0.7.1 No license field.
+85 info package.json grunt-contrib-copy@0.5.0 No license field.
+86 info package.json grunt-concurrent@0.5.0 No license field.
+87 info package.json grunt-contrib-clean@0.5.0 No license field.
+88 info package.json grunt-contrib-concat@0.4.0 No license field.
+89 info package.json grunt-contrib-cssmin@0.9.0 No license field.
+90 info package.json grunt-contrib-htmlmin@0.3.0 No license field.
+91 info package.json grunt-contrib-uglify@0.4.1 No license field.
+92 info package.json grunt-filerev@0.2.1 No license field.
+93 info package.json grunt-contrib-watch@0.6.1 No license field.
+94 info package.json grunt-contrib-jshint@0.10.0 No license field.
+95 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+96 info package.json grunt-newer@0.7.0 No license field.
+97 info package.json grunt-ng-annotate@0.4.0 No license field.
+98 info package.json grunt-svgmin@0.4.0 No license field.
+99 info package.json grunt-contrib-imagemin@0.8.1 No license field.
+100 info package.json grunt-wiredep@1.9.0 No license field.
+101 info package.json gulp@3.8.9 No license field.
+102 info package.json gulp-minify-html@0.1.8 No license field.
+103 info package.json gulp-ng-annotate@0.3.6 license should be a valid SPDX license expression
+104 info package.json gulp-ng-html2js@0.1.8 No license field.
+105 info package.json gulp-protractor@0.0.11 No license field.
+106 info package.json require-dir@0.1.0 No license field.
+107 info package.json node-watch@0.3.4 No license field.
+108 info package.json wiredep@1.8.6 No license field.
+109 info package.json uglify-save-license@0.4.1 No license field.
+110 info package.json browser-sync@1.9.2 No license field.
+111 info package.json gulp-inject@1.3.1 No license field.
+112 info package.json gulp-concat@2.4.1 No license field.
+113 info package.json gulp-jshint@1.8.6 No license field.
+114 info package.json gulp-rename@1.2.0 No license field.
+115 verbose readDependencies loading dependencies from /Users/Malpicadz/Sites/repos/package.json
+116 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/bower/package.json
+117 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/bower_components/package.json
+118 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/browser-sync/package.json
+119 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/chai/package.json
+120 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/chalk/package.json
+121 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/del/package.json
+122 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt/package.json
+123 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-autoprefixer/package.json
+124 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-concurrent/package.json
+125 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-clean/package.json
+126 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-concat/package.json
+127 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-connect/package.json
+128 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-copy/package.json
+129 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-cssmin/package.json
+130 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-htmlmin/package.json
+131 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-imagemin/package.json
+132 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-jshint/package.json
+133 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-uglify/package.json
+134 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-contrib-watch/package.json
+135 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-filerev/package.json
+136 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-google-cdn/package.json
+137 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-karma/package.json
+138 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-newer/package.json
+139 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-ng-annotate/package.json
+140 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-svgmin/package.json
+141 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-usemin/package.json
+142 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/grunt-wiredep/package.json
+143 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp/package.json
+144 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-autoprefixer/package.json
+145 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-cache/package.json
+146 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-concat/package.json
+147 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-csso/package.json
+148 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-filter/package.json
+149 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-flatten/package.json
+150 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-imagemin/package.json
+151 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-inject/package.json
+152 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-jshint/package.json
+153 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-karma/package.json
+154 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-load-plugins/package.json
+155 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-minify-html/package.json
+156 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-annotate/package.json
+157 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-html2js/package.json
+158 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-protractor/package.json
+159 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rename/package.json
+160 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-replace/package.json
+161 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rev/package.json
+162 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-rev-replace/package.json
+163 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-sass/package.json
+164 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-size/package.json
+165 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-uglify/package.json
+166 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/gulp-useref/package.json
+167 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/http-proxy/package.json
+168 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/jasmine-core/package.json
+169 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/jshint-stylish/package.json
+170 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/karma/package.json
+171 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/karma-jasmine/package.json
+172 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/karma-phantomjs-launcher/package.json
+173 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/load-grunt-tasks/package.json
+174 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/lodash/package.json
+175 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/main-bower-files/package.json
+176 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/node-watch/package.json
+177 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/normalize.css/package.json
+178 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/phantomjs/package.json
+179 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/protractor/package.json
+180 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/require-dir/package.json
+181 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/time-grunt/package.json
+182 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/uglify-save-license/package.json
+183 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/wiredep/package.json
+184 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/bower/package.json
+185 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/browser-sync/package.json
+186 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/gulp/package.json
+187 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/karma/package.json
+188 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/phantomjs/package.json
+189 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/protractor/package.json
+190 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/webdriver-manager/package.json
+191 verbose targetResolver reading package data from /Users/Malpicadz/Sites/repos/node_modules/.bin/wiredep/package.json
+192 verbose already installed skipping grunt-contrib-uglify@^0.4.0 /Users/Malpicadz/Sites/repos
+193 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/Malpicadz/Sites/repos
+194 verbose already installed skipping grunt-filerev@^0.2.1 /Users/Malpicadz/Sites/repos
+195 verbose already installed skipping grunt-google-cdn@^0.4.0 /Users/Malpicadz/Sites/repos
+196 verbose already installed skipping grunt-newer@^0.7.0 /Users/Malpicadz/Sites/repos
+197 verbose already installed skipping grunt-ng-annotate@^0.4.0 /Users/Malpicadz/Sites/repos
+198 verbose already installed skipping grunt-svgmin@^0.4.0 /Users/Malpicadz/Sites/repos
+199 verbose already installed skipping grunt-usemin@^2.1.1 /Users/Malpicadz/Sites/repos
+200 verbose already installed skipping grunt-wiredep@^1.7.0 /Users/Malpicadz/Sites/repos
+201 verbose already installed skipping jshint-stylish@^0.2.0 /Users/Malpicadz/Sites/repos
+202 verbose already installed skipping load-grunt-tasks@^0.4.0 /Users/Malpicadz/Sites/repos
+203 verbose already installed skipping time-grunt@^0.3.1 /Users/Malpicadz/Sites/repos
+204 verbose already installed skipping grunt@^0.4.1 /Users/Malpicadz/Sites/repos
+205 verbose already installed skipping grunt-autoprefixer@^0.7.3 /Users/Malpicadz/Sites/repos
+206 verbose already installed skipping grunt-concurrent@^0.5.0 /Users/Malpicadz/Sites/repos
+207 verbose already installed skipping grunt-contrib-clean@^0.5.0 /Users/Malpicadz/Sites/repos
+208 verbose already installed skipping grunt-contrib-concat@^0.4.0 /Users/Malpicadz/Sites/repos
+209 verbose already installed skipping grunt-contrib-connect@^0.7.1 /Users/Malpicadz/Sites/repos
+210 verbose already installed skipping grunt-contrib-copy@^0.5.0 /Users/Malpicadz/Sites/repos
+211 verbose already installed skipping grunt-contrib-cssmin@^0.9.0 /Users/Malpicadz/Sites/repos
+212 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /Users/Malpicadz/Sites/repos
+213 verbose already installed skipping grunt-contrib-imagemin@^0.8.1 /Users/Malpicadz/Sites/repos
+214 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/Malpicadz/Sites/repos
+215 silly install resolved []
+216 info build /Users/Malpicadz/Sites/repos
+217 info linkStuff repos@0.0.0
+218 silly linkStuff repos@0.0.0 has /Users/Malpicadz/Sites as its parent node_modules
+219 verbose linkBins repos@0.0.0
+220 verbose linkMans repos@0.0.0
+221 verbose rebuildBundles repos@0.0.0
+222 verbose rebuildBundles [ '.DS_Store',
+222 verbose rebuildBundles   '.bin',
+222 verbose rebuildBundles   'bower',
+222 verbose rebuildBundles   'bower_components',
+222 verbose rebuildBundles   'browser-sync',
+222 verbose rebuildBundles   'chai',
+222 verbose rebuildBundles   'chalk',
+222 verbose rebuildBundles   'del',
+222 verbose rebuildBundles   'grunt',
+222 verbose rebuildBundles   'grunt-autoprefixer',
+222 verbose rebuildBundles   'grunt-concurrent',
+222 verbose rebuildBundles   'grunt-contrib-clean',
+222 verbose rebuildBundles   'grunt-contrib-concat',
+222 verbose rebuildBundles   'grunt-contrib-connect',
+222 verbose rebuildBundles   'grunt-contrib-copy',
+222 verbose rebuildBundles   'grunt-contrib-cssmin',
+222 verbose rebuildBundles   'grunt-contrib-htmlmin',
+222 verbose rebuildBundles   'grunt-contrib-imagemin',
+222 verbose rebuildBundles   'grunt-contrib-jshint',
+222 verbose rebuildBundles   'grunt-contrib-uglify',
+222 verbose rebuildBundles   'grunt-contrib-watch',
+222 verbose rebuildBundles   'grunt-filerev',
+222 verbose rebuildBundles   'grunt-google-cdn',
+222 verbose rebuildBundles   'grunt-karma',
+222 verbose rebuildBundles   'grunt-newer',
+222 verbose rebuildBundles   'grunt-ng-annotate',
+222 verbose rebuildBundles   'grunt-svgmin',
+222 verbose rebuildBundles   'grunt-usemin',
+222 verbose rebuildBundles   'grunt-wiredep',
+222 verbose rebuildBundles   'gulp',
+222 verbose rebuildBundles   'gulp-autoprefixer',
+222 verbose rebuildBundles   'gulp-cache',
+222 verbose rebuildBundles   'gulp-concat',
+222 verbose rebuildBundles   'gulp-csso',
+222 verbose rebuildBundles   'gulp-filter',
+222 verbose rebuildBundles   'gulp-flatten',
+222 verbose rebuildBundles   'gulp-imagemin',
+222 verbose rebuildBundles   'gulp-inject',
+222 verbose rebuildBundles   'gulp-jshint',
+222 verbose rebuildBundles   'gulp-karma',
+222 verbose rebuildBundles   'gulp-load-plugins',
+222 verbose rebuildBundles   'gulp-minify-html',
+222 verbose rebuildBundles   'gulp-ng-annotate',
+222 verbose rebuildBundles   'gulp-ng-html2js',
+222 verbose rebuildBundles   'gulp-protractor',
+222 verbose rebuildBundles   'gulp-rename',
+222 verbose rebuildBundles   'gulp-replace',
+222 verbose rebuildBundles   'gulp-rev',
+222 verbose rebuildBundles   'gulp-rev-replace',
+222 verbose rebuildBundles   'gulp-sass',
+222 verbose rebuildBundles   'gulp-size',
+222 verbose rebuildBundles   'gulp-uglify',
+222 verbose rebuildBundles   'gulp-useref',
+222 verbose rebuildBundles   'http-proxy',
+222 verbose rebuildBundles   'jasmine-core',
+222 verbose rebuildBundles   'jshint-stylish',
+222 verbose rebuildBundles   'karma',
+222 verbose rebuildBundles   'karma-jasmine',
+222 verbose rebuildBundles   'karma-phantomjs-launcher',
+222 verbose rebuildBundles   'load-grunt-tasks',
+222 verbose rebuildBundles   'lodash',
+222 verbose rebuildBundles   'main-bower-files',
+222 verbose rebuildBundles   'node-watch',
+222 verbose rebuildBundles   'normalize.css',
+222 verbose rebuildBundles   'phantomjs',
+222 verbose rebuildBundles   'protractor',
+222 verbose rebuildBundles   'require-dir',
+222 verbose rebuildBundles   'time-grunt',
+222 verbose rebuildBundles   'uglify-save-license',
+222 verbose rebuildBundles   'wiredep' ]
+223 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/bower
+224 info build /Users/Malpicadz/Sites/repos/node_modules/bower
+225 info preinstall bower@1.3.12
+226 info linkStuff bower@1.3.12
+227 silly linkStuff bower@1.3.12 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+228 warn prefer global bower@1.3.12 should be installed with -g
+229 verbose linkBins bower@1.3.12
+230 verbose link bins [ { bower: 'bin/bower' },
+230 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+230 verbose link bins   false ]
+231 verbose linkMans bower@1.3.12
+232 verbose rebuildBundles bower@1.3.12
+233 verbose rebuildBundles [ '.bin',
+233 verbose rebuildBundles   'abbrev',
+233 verbose rebuildBundles   'archy',
+233 verbose rebuildBundles   'bower-config',
+233 verbose rebuildBundles   'bower-endpoint-parser',
+233 verbose rebuildBundles   'bower-json',
+233 verbose rebuildBundles   'bower-logger',
+233 verbose rebuildBundles   'bower-registry-client',
+233 verbose rebuildBundles   'cardinal',
+233 verbose rebuildBundles   'chalk',
+233 verbose rebuildBundles   'chmodr',
+233 verbose rebuildBundles   'decompress-zip',
+233 verbose rebuildBundles   'fstream',
+233 verbose rebuildBundles   'fstream-ignore',
+233 verbose rebuildBundles   'glob',
+233 verbose rebuildBundles   'graceful-fs',
+233 verbose rebuildBundles   'handlebars',
+233 verbose rebuildBundles   'inquirer',
+233 verbose rebuildBundles   'insight',
+233 verbose rebuildBundles   'is-root',
+233 verbose rebuildBundles   'junk',
+233 verbose rebuildBundles   'lockfile',
+233 verbose rebuildBundles   'lru-cache',
+233 verbose rebuildBundles   'mkdirp',
+233 verbose rebuildBundles   'mout',
+233 verbose rebuildBundles   'nopt',
+233 verbose rebuildBundles   'opn',
+233 verbose rebuildBundles   'osenv',
+233 verbose rebuildBundles   'p-throttler',
+233 verbose rebuildBundles   'promptly',
+233 verbose rebuildBundles   'q',
+233 verbose rebuildBundles   'request',
+233 verbose rebuildBundles   'request-progress',
+233 verbose rebuildBundles   'retry',
+233 verbose rebuildBundles   'rimraf',
+233 verbose rebuildBundles   'semver',
+233 verbose rebuildBundles   'shell-quote',
+233 verbose rebuildBundles   'stringify-object',
+233 verbose rebuildBundles   'tar-fs',
+233 verbose rebuildBundles   'tmp',
+233 verbose rebuildBundles   'update-notifier',
+233 verbose rebuildBundles   'which' ]
+234 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/bower is being purged
+235 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/bower
+236 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/bower
+237 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+238 info install bower@1.3.12
+239 info postinstall bower@1.3.12
+240 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/bower_components
+241 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/browser-sync
+242 info build /Users/Malpicadz/Sites/repos/node_modules/browser-sync
+243 info preinstall browser-sync@1.9.2
+244 info linkStuff browser-sync@1.9.2
+245 silly linkStuff browser-sync@1.9.2 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+246 verbose linkBins browser-sync@1.9.2
+247 verbose link bins [ { 'browser-sync': 'bin/browser-sync' },
+247 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+247 verbose link bins   false ]
+248 verbose linkMans browser-sync@1.9.2
+249 verbose rebuildBundles browser-sync@1.9.2
+250 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/browser-sync is being purged
+251 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/browser-sync
+252 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/browser-sync
+253 verbose rebuildBundles [ '.bin',
+253 verbose rebuildBundles   'browser-sync-client',
+253 verbose rebuildBundles   'commander',
+253 verbose rebuildBundles   'connect',
+253 verbose rebuildBundles   'dev-ip',
+253 verbose rebuildBundles   'easy-extender',
+253 verbose rebuildBundles   'eazy-logger',
+253 verbose rebuildBundles   'emitter-steward',
+253 verbose rebuildBundles   'foxy',
+253 verbose rebuildBundles   'glob-watcher',
+253 verbose rebuildBundles   'localtunnel',
+253 verbose rebuildBundles   'minimist',
+253 verbose rebuildBundles   'object-path',
+253 verbose rebuildBundles   'opn',
+253 verbose rebuildBundles   'opt-merger',
+253 verbose rebuildBundles   'portscanner-plus',
+253 verbose rebuildBundles   'resp-modifier',
+253 verbose rebuildBundles   'serve-index',
+253 verbose rebuildBundles   'serve-static',
+253 verbose rebuildBundles   'socket.io',
+253 verbose rebuildBundles   'tfunk',
+253 verbose rebuildBundles   'ua-parser-js' ]
+254 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+255 info install browser-sync@1.9.2
+256 info postinstall browser-sync@1.9.2
+257 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/chai
+258 info build /Users/Malpicadz/Sites/repos/node_modules/chai
+259 info preinstall chai@1.9.2
+260 info linkStuff chai@1.9.2
+261 silly linkStuff chai@1.9.2 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+262 verbose linkBins chai@1.9.2
+263 verbose linkMans chai@1.9.2
+264 verbose rebuildBundles chai@1.9.2
+265 verbose rebuildBundles [ 'assertion-error', 'deep-eql' ]
+266 info install chai@1.9.2
+267 info postinstall chai@1.9.2
+268 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/chalk
+269 info build /Users/Malpicadz/Sites/repos/node_modules/chalk
+270 info preinstall chalk@0.4.0
+271 info linkStuff chalk@0.4.0
+272 silly linkStuff chalk@0.4.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+273 verbose linkBins chalk@0.4.0
+274 verbose linkMans chalk@0.4.0
+275 verbose rebuildBundles chalk@0.4.0
+276 verbose rebuildBundles [ '.bin', 'ansi-styles', 'has-color', 'strip-ansi' ]
+277 info install chalk@0.4.0
+278 info postinstall chalk@0.4.0
+279 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/del
+280 info build /Users/Malpicadz/Sites/repos/node_modules/del
+281 info preinstall del@0.1.3
+282 info linkStuff del@0.1.3
+283 silly linkStuff del@0.1.3 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+284 verbose linkBins del@0.1.3
+285 verbose linkMans del@0.1.3
+286 verbose rebuildBundles del@0.1.3
+287 verbose rebuildBundles [ '.bin',
+287 verbose rebuildBundles   'each-async',
+287 verbose rebuildBundles   'globby',
+287 verbose rebuildBundles   'is-path-cwd',
+287 verbose rebuildBundles   'is-path-in-cwd',
+287 verbose rebuildBundles   'rimraf' ]
+288 info install del@0.1.3
+289 info postinstall del@0.1.3
+290 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/grunt-karma
+291 info build /Users/Malpicadz/Sites/repos/node_modules/grunt-karma
+292 info preinstall grunt-karma@0.12.1
+293 info linkStuff grunt-karma@0.12.1
+294 silly linkStuff grunt-karma@0.12.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+295 verbose linkBins grunt-karma@0.12.1
+296 verbose linkMans grunt-karma@0.12.1
+297 verbose rebuildBundles grunt-karma@0.12.1
+298 verbose rebuildBundles [ 'lodash' ]
+299 info install grunt-karma@0.12.1
+300 info postinstall grunt-karma@0.12.1
+301 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp
+302 info build /Users/Malpicadz/Sites/repos/node_modules/gulp
+303 info preinstall gulp@3.8.9
+304 info linkStuff gulp@3.8.9
+305 silly linkStuff gulp@3.8.9 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+306 verbose linkBins gulp@3.8.9
+307 verbose link bins [ { gulp: './bin/gulp.js' },
+307 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+307 verbose link bins   false ]
+308 verbose linkMans gulp@3.8.9
+309 verbose rebuildBundles gulp@3.8.9
+310 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/gulp is being purged
+311 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/gulp
+312 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/gulp
+313 verbose rebuildBundles [ '.bin',
+313 verbose rebuildBundles   'archy',
+313 verbose rebuildBundles   'chalk',
+313 verbose rebuildBundles   'deprecated',
+313 verbose rebuildBundles   'gulp-util',
+313 verbose rebuildBundles   'interpret',
+313 verbose rebuildBundles   'liftoff',
+313 verbose rebuildBundles   'minimist',
+313 verbose rebuildBundles   'orchestrator',
+313 verbose rebuildBundles   'pretty-hrtime',
+313 verbose rebuildBundles   'semver',
+313 verbose rebuildBundles   'tildify',
+313 verbose rebuildBundles   'v8flags',
+313 verbose rebuildBundles   'vinyl-fs' ]
+314 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+315 info install gulp@3.8.9
+316 info postinstall gulp@3.8.9
+317 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-autoprefixer
+318 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-autoprefixer
+319 info preinstall gulp-autoprefixer@0.0.6
+320 info linkStuff gulp-autoprefixer@0.0.6
+321 silly linkStuff gulp-autoprefixer@0.0.6 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+322 verbose linkBins gulp-autoprefixer@0.0.6
+323 verbose linkMans gulp-autoprefixer@0.0.6
+324 verbose rebuildBundles gulp-autoprefixer@0.0.6
+325 verbose rebuildBundles [ '.bin', 'autoprefixer', 'bufferstreams', 'gulp-util' ]
+326 info install gulp-autoprefixer@0.0.6
+327 info postinstall gulp-autoprefixer@0.0.6
+328 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-cache
+329 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-cache
+330 info preinstall gulp-cache@0.2.10
+331 info linkStuff gulp-cache@0.2.10
+332 silly linkStuff gulp-cache@0.2.10 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+333 verbose linkBins gulp-cache@0.2.10
+334 verbose linkMans gulp-cache@0.2.10
+335 verbose rebuildBundles gulp-cache@0.2.10
+336 verbose rebuildBundles [ 'bluebird',
+336 verbose rebuildBundles   'cache-swap',
+336 verbose rebuildBundles   'gulp-util',
+336 verbose rebuildBundles   'object-assign',
+336 verbose rebuildBundles   'object.omit',
+336 verbose rebuildBundles   'object.pick',
+336 verbose rebuildBundles   'through2',
+336 verbose rebuildBundles   'try-json-parse',
+336 verbose rebuildBundles   'vinyl' ]
+337 info install gulp-cache@0.2.10
+338 info postinstall gulp-cache@0.2.10
+339 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-concat
+340 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-concat
+341 info preinstall gulp-concat@2.4.1
+342 info linkStuff gulp-concat@2.4.1
+343 silly linkStuff gulp-concat@2.4.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+344 verbose linkBins gulp-concat@2.4.1
+345 verbose linkMans gulp-concat@2.4.1
+346 verbose rebuildBundles gulp-concat@2.4.1
+347 verbose rebuildBundles [ 'concat-with-sourcemaps', 'gulp-util', 'through' ]
+348 info install gulp-concat@2.4.1
+349 info postinstall gulp-concat@2.4.1
+350 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-csso
+351 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-csso
+352 info preinstall gulp-csso@0.2.9
+353 info linkStuff gulp-csso@0.2.9
+354 silly linkStuff gulp-csso@0.2.9 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+355 verbose linkBins gulp-csso@0.2.9
+356 verbose linkMans gulp-csso@0.2.9
+357 verbose rebuildBundles gulp-csso@0.2.9
+358 verbose rebuildBundles [ '.bin', 'bufferstreams', 'csso', 'gulp-util' ]
+359 info install gulp-csso@0.2.9
+360 info postinstall gulp-csso@0.2.9
+361 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-filter
+362 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-filter
+363 info preinstall gulp-filter@1.0.2
+364 info linkStuff gulp-filter@1.0.2
+365 silly linkStuff gulp-filter@1.0.2 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+366 verbose linkBins gulp-filter@1.0.2
+367 verbose linkMans gulp-filter@1.0.2
+368 verbose rebuildBundles gulp-filter@1.0.2
+369 verbose rebuildBundles [ 'gulp-util', 'multimatch', 'through2' ]
+370 info install gulp-filter@1.0.2
+371 info postinstall gulp-filter@1.0.2
+372 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-flatten
+373 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-flatten
+374 info preinstall gulp-flatten@0.0.2
+375 info linkStuff gulp-flatten@0.0.2
+376 silly linkStuff gulp-flatten@0.0.2 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+377 verbose linkBins gulp-flatten@0.0.2
+378 verbose linkMans gulp-flatten@0.0.2
+379 verbose rebuildBundles gulp-flatten@0.0.2
+380 verbose rebuildBundles [ 'gulp-util', 'through2' ]
+381 info install gulp-flatten@0.0.2
+382 info postinstall gulp-flatten@0.0.2
+383 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-imagemin
+384 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-imagemin
+385 info preinstall gulp-imagemin@1.2.1
+386 info linkStuff gulp-imagemin@1.2.1
+387 silly linkStuff gulp-imagemin@1.2.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+388 verbose linkBins gulp-imagemin@1.2.1
+389 verbose linkMans gulp-imagemin@1.2.1
+390 verbose rebuildBundles gulp-imagemin@1.2.1
+391 verbose rebuildBundles [ '.bin',
+391 verbose rebuildBundles   'chalk',
+391 verbose rebuildBundles   'gulp-util',
+391 verbose rebuildBundles   'imagemin',
+391 verbose rebuildBundles   'object-assign',
+391 verbose rebuildBundles   'pretty-bytes',
+391 verbose rebuildBundles   'through2-concurrent' ]
+392 info install gulp-imagemin@1.2.1
+393 info postinstall gulp-imagemin@1.2.1
+394 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-inject
+395 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-inject
+396 info preinstall gulp-inject@1.3.1
+397 info linkStuff gulp-inject@1.3.1
+398 silly linkStuff gulp-inject@1.3.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+399 verbose linkBins gulp-inject@1.3.1
+400 verbose linkMans gulp-inject@1.3.1
+401 verbose rebuildBundles gulp-inject@1.3.1
+402 verbose rebuildBundles [ 'event-stream', 'gulp-util' ]
+403 info install gulp-inject@1.3.1
+404 info postinstall gulp-inject@1.3.1
+405 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-jshint
+406 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-jshint
+407 info preinstall gulp-jshint@1.8.6
+408 info linkStuff gulp-jshint@1.8.6
+409 silly linkStuff gulp-jshint@1.8.6 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+410 verbose linkBins gulp-jshint@1.8.6
+411 verbose linkMans gulp-jshint@1.8.6
+412 verbose rebuildBundles gulp-jshint@1.8.6
+413 verbose rebuildBundles [ '.bin',
+413 verbose rebuildBundles   'gulp-util',
+413 verbose rebuildBundles   'jshint',
+413 verbose rebuildBundles   'lodash',
+413 verbose rebuildBundles   'minimatch',
+413 verbose rebuildBundles   'rcloader',
+413 verbose rebuildBundles   'through2' ]
+414 info install gulp-jshint@1.8.6
+415 info postinstall gulp-jshint@1.8.6
+416 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-karma
+417 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-karma
+418 info preinstall gulp-karma@0.0.4
+419 info linkStuff gulp-karma@0.0.4
+420 silly linkStuff gulp-karma@0.0.4 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+421 verbose linkBins gulp-karma@0.0.4
+422 verbose linkMans gulp-karma@0.0.4
+423 verbose rebuildBundles gulp-karma@0.0.4
+424 verbose rebuildBundles [ 'event-stream', 'gulp-util', 'optimist', 'xtend' ]
+425 info install gulp-karma@0.0.4
+426 info postinstall gulp-karma@0.0.4
+427 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-load-plugins
+428 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-load-plugins
+429 info preinstall gulp-load-plugins@0.6.0
+430 info linkStuff gulp-load-plugins@0.6.0
+431 silly linkStuff gulp-load-plugins@0.6.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+432 verbose linkBins gulp-load-plugins@0.6.0
+433 verbose linkMans gulp-load-plugins@0.6.0
+434 verbose rebuildBundles gulp-load-plugins@0.6.0
+435 verbose rebuildBundles [ 'findup-sync', 'multimatch' ]
+436 info install gulp-load-plugins@0.6.0
+437 info postinstall gulp-load-plugins@0.6.0
+438 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-minify-html
+439 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-minify-html
+440 info preinstall gulp-minify-html@0.1.8
+441 info linkStuff gulp-minify-html@0.1.8
+442 silly linkStuff gulp-minify-html@0.1.8 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+443 verbose linkBins gulp-minify-html@0.1.8
+444 verbose linkMans gulp-minify-html@0.1.8
+445 verbose rebuildBundles gulp-minify-html@0.1.8
+446 verbose rebuildBundles [ '.bin', 'gulp-util', 'minimize', 'through2' ]
+447 info install gulp-minify-html@0.1.8
+448 info postinstall gulp-minify-html@0.1.8
+449 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-annotate
+450 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-annotate
+451 info preinstall gulp-ng-annotate@0.3.6
+452 info linkStuff gulp-ng-annotate@0.3.6
+453 silly linkStuff gulp-ng-annotate@0.3.6 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+454 verbose linkBins gulp-ng-annotate@0.3.6
+455 verbose linkMans gulp-ng-annotate@0.3.6
+456 verbose rebuildBundles gulp-ng-annotate@0.3.6
+457 verbose rebuildBundles [ '.bin',
+457 verbose rebuildBundles   'gulp-util',
+457 verbose rebuildBundles   'merge',
+457 verbose rebuildBundles   'ng-annotate',
+457 verbose rebuildBundles   'through2',
+457 verbose rebuildBundles   'vinyl-sourcemaps-apply' ]
+458 info install gulp-ng-annotate@0.3.6
+459 info postinstall gulp-ng-annotate@0.3.6
+460 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-html2js
+461 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-ng-html2js
+462 info preinstall gulp-ng-html2js@0.1.8
+463 info linkStuff gulp-ng-html2js@0.1.8
+464 silly linkStuff gulp-ng-html2js@0.1.8 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+465 verbose linkBins gulp-ng-html2js@0.1.8
+466 verbose linkMans gulp-ng-html2js@0.1.8
+467 verbose rebuildBundles gulp-ng-html2js@0.1.8
+468 verbose rebuildBundles [ 'gulp-util', 'map-stream' ]
+469 info install gulp-ng-html2js@0.1.8
+470 info postinstall gulp-ng-html2js@0.1.8
+471 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-protractor
+472 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-protractor
+473 info preinstall gulp-protractor@0.0.11
+474 info linkStuff gulp-protractor@0.0.11
+475 silly linkStuff gulp-protractor@0.0.11 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+476 verbose linkBins gulp-protractor@0.0.11
+477 verbose linkMans gulp-protractor@0.0.11
+478 verbose rebuildBundles gulp-protractor@0.0.11
+479 verbose rebuildBundles [ 'async', 'dargs', 'event-stream', 'gulp-util' ]
+480 info install gulp-protractor@0.0.11
+481 info postinstall gulp-protractor@0.0.11
+482 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-rename
+483 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-rename
+484 info preinstall gulp-rename@1.2.0
+485 info linkStuff gulp-rename@1.2.0
+486 silly linkStuff gulp-rename@1.2.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+487 verbose linkBins gulp-rename@1.2.0
+488 verbose linkMans gulp-rename@1.2.0
+489 verbose rebuildBundles gulp-rename@1.2.0
+490 info install gulp-rename@1.2.0
+491 info postinstall gulp-rename@1.2.0
+492 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-replace
+493 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-replace
+494 info preinstall gulp-replace@0.4.0
+495 info linkStuff gulp-replace@0.4.0
+496 silly linkStuff gulp-replace@0.4.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+497 verbose linkBins gulp-replace@0.4.0
+498 verbose linkMans gulp-replace@0.4.0
+499 verbose rebuildBundles gulp-replace@0.4.0
+500 verbose rebuildBundles [ 'event-stream', 'istextorbinary', 'replacestream' ]
+501 info install gulp-replace@0.4.0
+502 info postinstall gulp-replace@0.4.0
+503 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-rev
+504 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-rev
+505 info preinstall gulp-rev@1.1.0
+506 info linkStuff gulp-rev@1.1.0
+507 silly linkStuff gulp-rev@1.1.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+508 verbose linkBins gulp-rev@1.1.0
+509 verbose linkMans gulp-rev@1.1.0
+510 verbose rebuildBundles gulp-rev@1.1.0
+511 verbose rebuildBundles [ 'gulp-util', 'object-assign', 'through2' ]
+512 info install gulp-rev@1.1.0
+513 info postinstall gulp-rev@1.1.0
+514 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-rev-replace
+515 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-rev-replace
+516 info preinstall gulp-rev-replace@0.3.4
+517 info linkStuff gulp-rev-replace@0.3.4
+518 silly linkStuff gulp-rev-replace@0.3.4 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+519 verbose linkBins gulp-rev-replace@0.3.4
+520 verbose linkMans gulp-rev-replace@0.3.4
+521 verbose rebuildBundles gulp-rev-replace@0.3.4
+522 verbose rebuildBundles [ 'gulp-util', 'through2' ]
+523 info install gulp-rev-replace@0.3.4
+524 info postinstall gulp-rev-replace@0.3.4
+525 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-sass
+526 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-sass
+527 info preinstall gulp-sass@0.7.3
+528 info linkStuff gulp-sass@0.7.3
+529 silly linkStuff gulp-sass@0.7.3 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+530 verbose linkBins gulp-sass@0.7.3
+531 verbose linkMans gulp-sass@0.7.3
+532 verbose rebuildBundles gulp-sass@0.7.3
+533 verbose rebuildBundles [ '.bin', 'gulp-util', 'map-stream', 'node-sass' ]
+534 info install gulp-sass@0.7.3
+535 info postinstall gulp-sass@0.7.3
+536 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-size
+537 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-size
+538 info preinstall gulp-size@1.2.1
+539 info linkStuff gulp-size@1.2.1
+540 silly linkStuff gulp-size@1.2.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+541 verbose linkBins gulp-size@1.2.1
+542 verbose linkMans gulp-size@1.2.1
+543 verbose rebuildBundles gulp-size@1.2.1
+544 verbose rebuildBundles [ '.bin',
+544 verbose rebuildBundles   'chalk',
+544 verbose rebuildBundles   'gulp-util',
+544 verbose rebuildBundles   'gzip-size',
+544 verbose rebuildBundles   'pretty-bytes',
+544 verbose rebuildBundles   'through2' ]
+545 info install gulp-size@1.2.1
+546 info postinstall gulp-size@1.2.1
+547 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-uglify
+548 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-uglify
+549 info preinstall gulp-uglify@1.0.1
+550 info linkStuff gulp-uglify@1.0.1
+551 silly linkStuff gulp-uglify@1.0.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+552 verbose linkBins gulp-uglify@1.0.1
+553 verbose linkMans gulp-uglify@1.0.1
+554 verbose rebuildBundles gulp-uglify@1.0.1
+555 verbose rebuildBundles [ '.bin',
+555 verbose rebuildBundles   'deepmerge',
+555 verbose rebuildBundles   'gulp-util',
+555 verbose rebuildBundles   'through2',
+555 verbose rebuildBundles   'uglify-js',
+555 verbose rebuildBundles   'vinyl-sourcemaps-apply' ]
+556 info install gulp-uglify@1.0.1
+557 info postinstall gulp-uglify@1.0.1
+558 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/gulp-useref
+559 info build /Users/Malpicadz/Sites/repos/node_modules/gulp-useref
+560 info preinstall gulp-useref@1.2.0
+561 info linkStuff gulp-useref@1.2.0
+562 silly linkStuff gulp-useref@1.2.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+563 verbose linkBins gulp-useref@1.2.0
+564 verbose linkMans gulp-useref@1.2.0
+565 verbose rebuildBundles gulp-useref@1.2.0
+566 verbose rebuildBundles [ 'brace-expansion',
+566 verbose rebuildBundles   'gulp-concat',
+566 verbose rebuildBundles   'gulp-if',
+566 verbose rebuildBundles   'gulp-util',
+566 verbose rebuildBundles   'is-relative-url',
+566 verbose rebuildBundles   'lodash',
+566 verbose rebuildBundles   'node-useref',
+566 verbose rebuildBundles   'through2',
+566 verbose rebuildBundles   'vinyl-fs' ]
+567 info install gulp-useref@1.2.0
+568 info postinstall gulp-useref@1.2.0
+569 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/http-proxy
+570 info build /Users/Malpicadz/Sites/repos/node_modules/http-proxy
+571 info preinstall http-proxy@1.11.1
+572 info linkStuff http-proxy@1.11.1
+573 silly linkStuff http-proxy@1.11.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+574 verbose linkBins http-proxy@1.11.1
+575 verbose linkMans http-proxy@1.11.1
+576 verbose rebuildBundles http-proxy@1.11.1
+577 verbose rebuildBundles [ 'eventemitter3', 'requires-port' ]
+578 info install http-proxy@1.11.1
+579 info postinstall http-proxy@1.11.1
+580 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/jasmine-core
+581 info build /Users/Malpicadz/Sites/repos/node_modules/jasmine-core
+582 info preinstall jasmine-core@2.3.4
+583 info linkStuff jasmine-core@2.3.4
+584 silly linkStuff jasmine-core@2.3.4 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+585 verbose linkBins jasmine-core@2.3.4
+586 verbose linkMans jasmine-core@2.3.4
+587 verbose rebuildBundles jasmine-core@2.3.4
+588 info install jasmine-core@2.3.4
+589 info postinstall jasmine-core@2.3.4
+590 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/karma
+591 info build /Users/Malpicadz/Sites/repos/node_modules/karma
+592 info preinstall karma@0.12.36
+593 info linkStuff karma@0.12.36
+594 silly linkStuff karma@0.12.36 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+595 verbose linkBins karma@0.12.36
+596 verbose link bins [ { karma: './bin/karma' },
+596 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+596 verbose link bins   false ]
+597 verbose linkMans karma@0.12.36
+598 verbose rebuildBundles karma@0.12.36
+599 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/karma is being purged
+600 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/karma
+601 verbose rebuildBundles [ '.bin',
+601 verbose rebuildBundles   'chokidar',
+601 verbose rebuildBundles   'colors',
+601 verbose rebuildBundles   'connect',
+601 verbose rebuildBundles   'di',
+601 verbose rebuildBundles   'glob',
+601 verbose rebuildBundles   'graceful-fs',
+601 verbose rebuildBundles   'http-proxy',
+601 verbose rebuildBundles   'lodash',
+601 verbose rebuildBundles   'log4js',
+601 verbose rebuildBundles   'mime',
+601 verbose rebuildBundles   'minimatch',
+601 verbose rebuildBundles   'optimist',
+601 verbose rebuildBundles   'q',
+601 verbose rebuildBundles   'rimraf',
+601 verbose rebuildBundles   'socket.io',
+601 verbose rebuildBundles   'source-map',
+601 verbose rebuildBundles   'useragent' ]
+602 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/karma
+603 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+604 info install karma@0.12.36
+605 info postinstall karma@0.12.36
+606 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/karma-jasmine
+607 info build /Users/Malpicadz/Sites/repos/node_modules/karma-jasmine
+608 info preinstall karma-jasmine@0.3.6
+609 info linkStuff karma-jasmine@0.3.6
+610 silly linkStuff karma-jasmine@0.3.6 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+611 verbose linkBins karma-jasmine@0.3.6
+612 verbose linkMans karma-jasmine@0.3.6
+613 verbose rebuildBundles karma-jasmine@0.3.6
+614 info install karma-jasmine@0.3.6
+615 info postinstall karma-jasmine@0.3.6
+616 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/karma-phantomjs-launcher
+617 info build /Users/Malpicadz/Sites/repos/node_modules/karma-phantomjs-launcher
+618 info preinstall karma-phantomjs-launcher@0.2.1
+619 info linkStuff karma-phantomjs-launcher@0.2.1
+620 silly linkStuff karma-phantomjs-launcher@0.2.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+621 verbose linkBins karma-phantomjs-launcher@0.2.1
+622 verbose linkMans karma-phantomjs-launcher@0.2.1
+623 verbose rebuildBundles karma-phantomjs-launcher@0.2.1
+624 verbose rebuildBundles [ 'lodash' ]
+625 info install karma-phantomjs-launcher@0.2.1
+626 info postinstall karma-phantomjs-launcher@0.2.1
+627 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/lodash
+628 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/main-bower-files
+629 info build /Users/Malpicadz/Sites/repos/node_modules/main-bower-files
+630 info preinstall main-bower-files@2.8.0
+631 info linkStuff main-bower-files@2.8.0
+632 silly linkStuff main-bower-files@2.8.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+633 verbose linkBins main-bower-files@2.8.0
+634 verbose linkMans main-bower-files@2.8.0
+635 verbose rebuildBundles main-bower-files@2.8.0
+636 verbose rebuildBundles [ '.bin',
+636 verbose rebuildBundles   'colors',
+636 verbose rebuildBundles   'glob',
+636 verbose rebuildBundles   'globule',
+636 verbose rebuildBundles   'lodash',
+636 verbose rebuildBundles   'minimatch',
+636 verbose rebuildBundles   'path-exists',
+636 verbose rebuildBundles   'strip-json-comments',
+636 verbose rebuildBundles   'vinyl-fs' ]
+637 info install main-bower-files@2.8.0
+638 info postinstall main-bower-files@2.8.0
+639 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/node-watch
+640 info build /Users/Malpicadz/Sites/repos/node_modules/node-watch
+641 info preinstall node-watch@0.3.4
+642 info linkStuff node-watch@0.3.4
+643 silly linkStuff node-watch@0.3.4 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+644 verbose linkBins node-watch@0.3.4
+645 verbose linkMans node-watch@0.3.4
+646 verbose rebuildBundles node-watch@0.3.4
+647 info install node-watch@0.3.4
+648 info postinstall node-watch@0.3.4
+649 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/normalize.css
+650 info build /Users/Malpicadz/Sites/repos/node_modules/normalize.css
+651 info preinstall normalize.css@3.0.2
+652 info linkStuff normalize.css@3.0.2
+653 silly linkStuff normalize.css@3.0.2 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+654 verbose linkBins normalize.css@3.0.2
+655 verbose linkMans normalize.css@3.0.2
+656 verbose rebuildBundles normalize.css@3.0.2
+657 info install normalize.css@3.0.2
+658 info postinstall normalize.css@3.0.2
+659 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/phantomjs
+660 info build /Users/Malpicadz/Sites/repos/node_modules/phantomjs
+661 info preinstall phantomjs@1.9.18
+662 info linkStuff phantomjs@1.9.18
+663 silly linkStuff phantomjs@1.9.18 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+664 verbose linkBins phantomjs@1.9.18
+665 verbose link bins [ { phantomjs: './bin/phantomjs' },
+665 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+665 verbose link bins   false ]
+666 verbose linkMans phantomjs@1.9.18
+667 verbose rebuildBundles phantomjs@1.9.18
+668 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/phantomjs is being purged
+669 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/phantomjs
+670 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/phantomjs
+671 verbose rebuildBundles [ '.bin',
+671 verbose rebuildBundles   'adm-zip',
+671 verbose rebuildBundles   'fs-extra',
+671 verbose rebuildBundles   'kew',
+671 verbose rebuildBundles   'npmconf',
+671 verbose rebuildBundles   'progress',
+671 verbose rebuildBundles   'request',
+671 verbose rebuildBundles   'request-progress',
+671 verbose rebuildBundles   'which' ]
+672 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+673 info install phantomjs@1.9.18
+674 verbose unsafe-perm in lifecycle true
+675 info postinstall phantomjs@1.9.18
+676 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/protractor
+677 info build /Users/Malpicadz/Sites/repos/node_modules/protractor
+678 info preinstall protractor@1.8.0
+679 info linkStuff protractor@1.8.0
+680 silly linkStuff protractor@1.8.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+681 verbose linkBins protractor@1.8.0
+682 verbose link bins [ { protractor: 'bin/protractor',
+682 verbose link bins     'webdriver-manager': 'bin/webdriver-manager' },
+682 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+682 verbose link bins   false ]
+683 verbose linkMans protractor@1.8.0
+684 verbose rebuildBundles protractor@1.8.0
+685 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/protractor is being purged
+686 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/protractor
+687 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/webdriver-manager is being purged
+688 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/webdriver-manager
+689 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/protractor
+690 verbose rebuildBundles [ '.bin',
+690 verbose rebuildBundles   'accessibility-developer-tools',
+690 verbose rebuildBundles   'adm-zip',
+690 verbose rebuildBundles   'glob',
+690 verbose rebuildBundles   'html-entities',
+690 verbose rebuildBundles   'jasmine',
+690 verbose rebuildBundles   'jasminewd',
+690 verbose rebuildBundles   'jasminewd2',
+690 verbose rebuildBundles   'minijasminenode',
+690 verbose rebuildBundles   'optimist',
+690 verbose rebuildBundles   'q',
+690 verbose rebuildBundles   'request',
+690 verbose rebuildBundles   'saucelabs',
+690 verbose rebuildBundles   'selenium-webdriver',
+690 verbose rebuildBundles   'source-map-support' ]
+691 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/webdriver-manager
+692 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+693 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+694 info install protractor@1.8.0
+695 info postinstall protractor@1.8.0
+696 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/require-dir
+697 info build /Users/Malpicadz/Sites/repos/node_modules/require-dir
+698 info preinstall require-dir@0.1.0
+699 info linkStuff require-dir@0.1.0
+700 silly linkStuff require-dir@0.1.0 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+701 verbose linkBins require-dir@0.1.0
+702 verbose linkMans require-dir@0.1.0
+703 verbose rebuildBundles require-dir@0.1.0
+704 info install require-dir@0.1.0
+705 info postinstall require-dir@0.1.0
+706 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/uglify-save-license
+707 info build /Users/Malpicadz/Sites/repos/node_modules/uglify-save-license
+708 info preinstall uglify-save-license@0.4.1
+709 info linkStuff uglify-save-license@0.4.1
+710 silly linkStuff uglify-save-license@0.4.1 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+711 verbose linkBins uglify-save-license@0.4.1
+712 verbose linkMans uglify-save-license@0.4.1
+713 verbose rebuildBundles uglify-save-license@0.4.1
+714 info install uglify-save-license@0.4.1
+715 info postinstall uglify-save-license@0.4.1
+716 verbose rebuild bundle /Users/Malpicadz/Sites/repos/node_modules/wiredep
+717 info build /Users/Malpicadz/Sites/repos/node_modules/wiredep
+718 info preinstall wiredep@1.8.6
+719 info linkStuff wiredep@1.8.6
+720 silly linkStuff wiredep@1.8.6 has /Users/Malpicadz/Sites/repos/node_modules as its parent node_modules
+721 verbose linkBins wiredep@1.8.6
+722 verbose link bins [ { wiredep: './wiredep-cli.js' },
+722 verbose link bins   '/Users/Malpicadz/Sites/repos/node_modules/.bin',
+722 verbose link bins   false ]
+723 verbose linkMans wiredep@1.8.6
+724 verbose rebuildBundles wiredep@1.8.6
+725 silly gentlyRm /Users/Malpicadz/Sites/repos/node_modules/.bin/wiredep is being purged
+726 verbose gentlyRm don't care about contents; nuking /Users/Malpicadz/Sites/repos/node_modules/.bin/wiredep
+727 silly vacuum-fs purging /Users/Malpicadz/Sites/repos/node_modules/.bin/wiredep
+728 verbose rebuildBundles [ 'bower-config',
+728 verbose rebuildBundles   'chalk',
+728 verbose rebuildBundles   'glob',
+728 verbose rebuildBundles   'minimist',
+728 verbose rebuildBundles   'propprop',
+728 verbose rebuildBundles   'through2' ]
+729 silly vacuum-fs quitting because other entries in /Users/Malpicadz/Sites/repos/node_modules/.bin
+730 info install wiredep@1.8.6
+731 info postinstall wiredep@1.8.6
+732 info install repos@0.0.0
+733 info postinstall repos@0.0.0
+734 info prepublish repos@0.0.0
+735 verbose validateInstall loading /Users/Malpicadz/Sites/repos/package.json for validation
+736 verbose stack Error: The package karma@0.12.36 does not satisfy its siblings' peerDependencies requirements!
+736 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+736 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+736 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+736 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+736 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+736 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+736 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+736 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+736 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+736 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+737 verbose cwd /Users/Malpicadz/Sites/repos/TheAftermath-II
+738 error Darwin 14.3.0
+739 error argv "node" "/usr/local/bin/npm" "install"
+740 error node v0.12.0
+741 error npm  v2.13.0
+742 error code EPEERINVALID
+743 error peerinvalid The package karma@0.12.36 does not satisfy its siblings' peerDependencies requirements!
+743 error peerinvalid Peer grunt-karma@0.12.1 wants karma@^0.13.0 || >= 0.14.0-rc.0
+743 error peerinvalid Peer karma-phantomjs-launcher@0.2.1 wants karma@>=0.9
+743 error peerinvalid Peer gulp-karma@0.0.4 wants karma@>=0.10 <=0.13
+744 verbose exit [ 1, true ]
