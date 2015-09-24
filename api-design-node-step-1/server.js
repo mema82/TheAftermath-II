@@ -16,5 +16,9 @@ app.get('/', function(req, res) {
 });
 
 
+app.get('/data' function(req, res) {
+	res.json(jsonData);
+});
+
 
 
