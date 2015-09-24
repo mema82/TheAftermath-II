@@ -7,6 +7,12 @@ var app = express();
 
 var jsonData = {count: 12, message: 'hey'};
 
-
+app.get('/', function(req, res) {
+	//res.sendfile takes and absolute path to the file you want to SEND
+	res.sendFile(_dirname + '/index.html', function(err) { 	//optional checking for error function
+			res.status(500).send(err); //setting a status code for example but can be what you want. 
+		}
+	})
+});
 
 
